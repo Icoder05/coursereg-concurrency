@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its data, please cite it as below."
+title: "Concurrency-Safe Real-Time Course Registration: An Experimental Evaluation"
+type: software
+authors:
+  - family-names: Chitakana
+    given-names: Kishan Phani
+date-released: 2026-10-29
+license: MIT
+keywords:
+  - concurrency control
+  - PostgreSQL
+  - row-level locking
+  - server-sent events
+  - design of experiments
+  - Go
+  - React
+abstract: >-
+  A Go/PostgreSQL course-registration service with a live React dashboard over
+  Server-Sent Events, evaluated in a randomised, repeated experiment (30 trials
+  per cell). Row locking removed seat over-allocation (0/120 vs 120/120 trials)
+  at a cost of 3-11 ms per request; SSE delivered changes in ~4 ms median versus
+  161 ms and 1,626 ms for 500 ms and 2 s polling.

@@ -1,0 +1,26 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Go
+/service
+*.exe
+*.test
+*.out
+
+# Web
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+.venv/

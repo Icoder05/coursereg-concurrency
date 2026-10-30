@@ -1,0 +1,46 @@
+{
+  "finished_at": "2026-10-29T05:03:19.952472736Z",
+  "go_version": "go1.20.14",
+  "goarch": "amd64",
+  "gomaxprocs": 12,
+  "goos": "linux",
+  "isolation": "READ COMMITTED (PostgreSQL default)",
+  "num_cpu": 12,
+  "params": {
+    "api": "http://service:8080",
+    "capacity": 5,
+    "poll_events": 40,
+    "poll_ms": [
+      500,
+      2000
+    ],
+    "pollers": 10,
+    "pool": 60,
+    "reps": 30,
+    "rq1_levels": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "rq2_levels": [
+      2,
+      5,
+      10,
+      20
+    ],
+    "seed": 20261029,
+    "sse_events": 100,
+    "sse_levels": [
+      1,
+      10,
+      50,
+      100
+    ],
+    "warmup": 2
+  },
+  "postgres": "PostgreSQL 15.19 (Debian 15.19-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+  "run_tag": "BX1029T0500",
+  "source_sha256": "ad717c4fa68aefefc9d7aba9822afeb654c17148c3ad6cba6f74d738faf2dca1",
+  "started_at": "2026-10-29T05:00:29.167719817Z"
+}

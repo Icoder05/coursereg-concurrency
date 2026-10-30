@@ -1,0 +1,4 @@
+# LF everywhere so the manifest source hash matches on every OS
+* text=auto eol=lf
+*.png binary
+*.pdf binary

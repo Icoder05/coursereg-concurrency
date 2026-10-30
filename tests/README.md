@@ -1,0 +1,1 @@
+Unit and integration tests can be added under tests/ using a test Postgres or sqlite in-memory DB.
